@@ -1,158 +1,54 @@
-# ÄÚÈİ£º±ÒÈ¦¹æÔò¼¯ - Crypto
-# ·ÖÀà£º½»Ò×Ëù¡¢Ç®°ü¡¢×ÊÑ¶¡¢DeFi¡¢½»Ò×¹¤¾ß
-# ÊıÁ¿£ºÔ¼60Ìõ
+########################################
+# 01. iCloud / App Storeï¼ˆå¼ºåˆ¶ç›´è¿ï¼‰
+########################################
 
-# ===== Ö÷Á÷½»Ò×Ëù =====
-# ±Ò°²
-DOMAIN,binance.com
-DOMAIN,binance.us
-DOMAIN,binancezh.com
-DOMAIN-SUFFIX,binance.cc
-DOMAIN-SUFFIX,bnbstatic.com
-DOMAIN-SUFFIX,bnbchain.org
+# iCloud æ ¸å¿ƒ
+DOMAIN-SUFFIX,icloud.com,DIRECT
+DOMAIN-SUFFIX,me.com,DIRECT
 
-# Coinbase
-DOMAIN,coinbase.com
-DOMAIN-SUFFIX,coinbasecdn.com
-DOMAIN-SUFFIX,coinbasecloud.net
+# App Store / è½¯ä»¶æ›´æ–°
+DOMAIN-SUFFIX,itunes.apple.com,DIRECT
+DOMAIN-SUFFIX,apps.apple.com,DIRECT
+DOMAIN-SUFFIX,appstore.com,DIRECT
 
-# OKX
-DOMAIN,okx.com
-DOMAIN,okex.com
-DOMAIN-SUFFIX,okexcdn.com
-DOMAIN-SUFFIX,oklink.com
+# Apple CDN / ä¸‹è½½åˆ†å‘
+DOMAIN-SUFFIX,apple-dns.net,DIRECT
+DOMAIN-SUFFIX,akadns.net,DIRECT
 
-# Kraken
-DOMAIN,kraken.com
-DOMAIN-SUFFIX,krakenflex.com
 
-# »ğ±Ò/HTX
-DOMAIN,htx.com
-DOMAIN,huobi.com
-DOMAIN-SUFFIX,hbg.com
+########################################
+# 02. Apple æ¶ˆæ¯ / Apple AIï¼ˆèµ° APPLE ç­–ç•¥ç»„ï¼‰
+########################################
 
-# Bybit
-DOMAIN,bybit.com
-DOMAIN-SUFFIX,bybitimg.com
+# iMessage / FaceTime / Apple Push
+DOMAIN-SUFFIX,push.apple.com,APPLE
+DOMAIN-SUFFIX,ess.apple.com,APPLE
 
-# KuCoin
-DOMAIN,kucoin.com
-DOMAIN-SUFFIX,kucoin.cc
+# Siri / Apple Intelligence / AI
+DOMAIN-SUFFIX,siri.apple.com,APPLE
+DOMAIN-SUFFIX,guzzoni.apple.com,APPLE
 
-# Gate.io
-DOMAIN,gate.io
-DOMAIN-SUFFIX,gate-api.com
 
-# Bitget
-DOMAIN,bitget.com
-DOMAIN-SUFFIX,bitgetapi.com
+########################################
+# 03. å…¶ä½™ Apple åŸŸåï¼ˆé»˜è®¤èµ° APPLEï¼‰
+########################################
 
-# ===== DEXÓë¾ÛºÏÆ÷ =====
-# Jupiter (JUP) - Solana DEX¾ÛºÏÆ÷
-DOMAIN,jup.ag
-DOMAIN,jupiter.fi
-DOMAIN-SUFFIX,jup.io
-DOMAIN-SUFFIX,jupiterapi.com
-DOMAIN-SUFFIX,jupitestatic.com
+DOMAIN-SUFFIX,apple.com,APPLE
 
-# Uniswap
-DOMAIN,uniswap.org
-DOMAIN-SUFFIX,uniswap-api.com
-DOMAIN-SUFFIX,uniswapfoundation.org
 
-# ÆäËûDEX
-DOMAIN-SUFFIX,aave.com
-DOMAIN-SUFFIX,compound.finance
-DOMAIN-SUFFIX,curve.fi
-DOMAIN-SUFFIX,1inch.io
-DOMAIN-SUFFIX,dydx.exchange
+########################################
+# 04. é˜¿å…ƒæ—¥å¸¸ç½‘ç«™ï¼ˆç›´è¿ï¼‰
+########################################
 
-# ===== ĞĞÇéÓë½»Ò×¹¤¾ß =====
-# DexScreener
-DOMAIN,dexscreener.com
-DOMAIN-SUFFIX,dexscreener-api.com
-DOMAIN-SUFFIX,dexscreener.io
+# é˜¿å…ƒæ—¥å¸¸ç½‘ç«™ç›´è¿
+DOMAIN-SUFFIX,apphot.cc,DIRECT
+DOMAIN-SUFFIX,ghxi.com,DIRECT
+DOMAIN-SUFFIX,zd423.com,DIRECT
 
-# GMGN (¼ÓÃÜÊı¾İ·ÖÎöÆ½Ì¨)
-DOMAIN,gmgn.ai
-DOMAIN-SUFFIX,gmgn.app
-DOMAIN-SUFFIX,gmgn.dev
-DOMAIN-SUFFIX,gmgn.cc
 
-# ÆäËûĞĞÇéÊı¾İ
-DOMAIN,coingecko.com
-DOMAIN,coinmarketcap.com
-DOMAIN-SUFFIX,cmc.io
-DOMAIN-SUFFIX,coindesk.com
-DOMAIN-SUFFIX,cointelegraph.com
-DOMAIN-SUFFIX,theblock.co
-DOMAIN-SUFFIX,decrypt.co
+########################################
+# 05. é˜¿å…ƒè‡ªæœ‰æœåŠ¡ï¼ˆç›´è¿ï¼‰
+########################################
 
-# ===== Ç®°ü·şÎñ =====
-DOMAIN,metamask.io
-DOMAIN-SUFFIX,metamask-api.com
-DOMAIN-SUFFIX,trustwallet.com
-DOMAIN-SUFFIX,tokenpocket.pro
-DOMAIN-SUFFIX,imtoken.com
-DOMAIN-SUFFIX,safepal.io
-
-# ===== NFTÊĞ³¡ =====
-DOMAIN,opensea.io
-DOMAIN-SUFFIX,opensea-api.com
-DOMAIN-SUFFIX,blur.io
-DOMAIN-SUFFIX,looksrare.org
-DOMAIN-SUFFIX,rarible.com
-
-# ===== Á´ÉÏÊı¾İä¯ÀÀÆ÷ =====
-DOMAIN,etherscan.io
-DOMAIN-SUFFIX,etherscan-api.com
-DOMAIN-SUFFIX,bscscan.com
-DOMAIN-SUFFIX,polygonscan.com
-DOMAIN-SUFFIX,arbiscan.io
-DOMAIN-SUFFIX,solscan.io
-DOMAIN-SUFFIX,snowtrace.io
-
-# ===== ¹úÄÚ½»Ò×Ëù£¨Ö±Á¬£©=====
-# ×¢Òâ£ºÒÔÏÂÎª¹úÄÚºÏ¹æ½»Ò×Ëù£¬½¨ÒéÖ±Á¬
-DOMAIN-SUFFIX,okx.cn,DIRECT
-DOMAIN-SUFFIX,huobi.pro,DIRECT
-DOMAIN-SUFFIX,zb.com,DIRECT
-DOMAIN-SUFFIX,biyong.com,DIRECT
-
-# ===== ÒÆ¶¯¶ËAPP×¨ÓÃÓòÃû =====
-# ±Ò°²APPÏà¹Ø
-DOMAIN,binance.sg
-DOMAIN,binance.net
-DOMAIN-SUFFIX,binance-cdn.com
-DOMAIN-SUFFIX,bnc-api.com
-
-# Coinbase APP
-DOMAIN,coinbase-coinbase.com
-DOMAIN-SUFFIX,coinbase-assets.com
-
-# DexScreener APP
-DOMAIN-SUFFIX,dexscreener.app
-DOMAIN-SUFFIX,dexscreener.mobile
-
-# ===== ½»Ò×ËùWebSocket£¨ÊµÊ±Êı¾İ£©=====
-DOMAIN-SUFFIX,stream.binance.com
-DOMAIN-SUFFIX,stream.binance.cloud
-DOMAIN-SUFFIX,ws-api.coinbase.com
-DOMAIN-SUFFIX,ws.okex.com
-
-# DexScreenerÊµÊ±Êı¾İ
-DOMAIN-SUFFIX,ws.dexscreener.com
-DOMAIN-SUFFIX,socket.dexscreener.com
-
-# ===== APIºÍCDN·şÎñ =====
-DOMAIN-SUFFIX,binance-ops.com
-DOMAIN-SUFFIX,binance.me
-DOMAIN-SUFFIX,binance.info
-DOMAIN-SUFFIX,bpay.me
-DOMAIN-SUFFIX,okex.me
-DOMAIN-SUFFIX,okex.info
-
-# ===== °²È«ÑéÖ¤ÓòÃû =====
-DOMAIN-SUFFIX,recaptcha.net  # GoogleÑéÖ¤Âë£¬·ÃÎÊ½»Ò×Ëù³£Ğè
-DOMAIN-SUFFIX,hcaptcha.com   # ÈË»úÑéÖ¤
-DOMAIN-SUFFIX,cloudflare.com # ²¿·Ö·şÎñÊ¹ÓÃCloudflareÑéÖ¤
+# ä¸»åŸŸåŠæ‰€æœ‰å­æœåŠ¡
+DOMAIN-SUFFIX,ayuan.cc,DIRECT
