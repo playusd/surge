@@ -1,3 +1,8 @@
-# Apple Core Services
-- DOMAIN-SUFFIX,apphot.cc
-- DOMAIN-SUFFIX,ghxi.com
+# 阿元日常网站直连
+DOMAIN-SUFFIX,apphot.cc
+DOMAIN-SUFFIX,ghxi.com
+DOMAIN-SUFFIX,zd423.com
+
+
+# 阿元自己服务
+DOMAIN-SUFFIX,ayuan.cc
