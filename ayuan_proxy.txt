@@ -1,27 +1,2 @@
-# Apple Core Services
-- DOMAIN-SUFFIX,apple.com
-- DOMAIN-SUFFIX,icloud.com
-- DOMAIN-SUFFIX,me.com
-
-# iMessage / iCloud Sync
-- DOMAIN-SUFFIX,ids.apple.com
-- DOMAIN-SUFFIX,setup.icloud.com
-- DOMAIN-SUFFIX,ess.apple.com
-
-# Apple Push Notification Service
-- DOMAIN-SUFFIX,push.apple.com
-- DOMAIN-SUFFIX,apns.apple.com
-
-# Apple CDN / DNS
-- DOMAIN-SUFFIX,apple-dns.net
-- DOMAIN-SUFFIX,akadns.net
-- DOMAIN-SUFFIX,cdn-apple.com
-
-# Apple AI / Siri / Intelligence
-- DOMAIN-SUFFIX,siri.apple.com
-- DOMAIN-SUFFIX,guzzoni.apple.com
-- DOMAIN-SUFFIX,apple-ai.com
-- DOMAIN-SUFFIX,ml.apple.com
-
-# Apple GeoIP Fallback
-- GEOIP,APPLE,Apple
+# 阿元日常网站
+DOMAIN-SUFFIX,wogg.one
