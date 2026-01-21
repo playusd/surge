@@ -1,66 +1,20 @@
 # Apple Core Services
 DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,me.com
 
-# iMessage / iCloud Sync
+# iMessage / iCloud Sync (仅保留同步相关，不含icloud.com)
 DOMAIN-SUFFIX,ids.apple.com
-DOMAIN-SUFFIX,setup.icloud.com
 DOMAIN-SUFFIX,ess.apple.com
 
 # Apple Push Notification Service
 DOMAIN-SUFFIX,push.apple.com
-DOMAIN-SUFFIX,apns.apple.com
 
 # Apple CDN / DNS
 DOMAIN-SUFFIX,apple-dns.net
-DOMAIN-SUFFIX,akadns.net
 
 # Apple AI / Siri / Intelligence
 DOMAIN-SUFFIX,siri.apple.com
 DOMAIN-SUFFIX,guzzoni.apple.com
 DOMAIN-SUFFIX,ml.apple.com
 
-# Apple Maps
-DOMAIN-SUFFIX,ls.apple.com
-DOMAIN-SUFFIX,gs-loc.apple.com
-DOMAIN-SUFFIX,maps.apple.com
-
-# Apple Media Services
-DOMAIN-SUFFIX,music.apple.com
-DOMAIN-SUFFIX,itunes.apple.com
-DOMAIN-SUFFIX,books.apple.com
-DOMAIN-SUFFIX,podcasts.apple.com
-DOMAIN-SUFFIX,tv.apple.com
-
-# Apple Developer Services
-DOMAIN-SUFFIX,developer.apple.com
-DOMAIN-SUFFIX,devimages-cdn.apple.com
-DOMAIN-SUFFIX,swift.org
-
-# Apple Cloud Services
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,mzstatic.com
-
 # Apple Security & Privacy
-DOMAIN-SUFFIX,apple-dns.com
 DOMAIN-SUFFIX,ocsp.apple.com
-DOMAIN-SUFFIX,crl.apple.com
-
-# Apple Store & Commerce
-DOMAIN-SUFFIX,apple-store.com
-DOMAIN-SUFFIX,store.apple.com
-DOMAIN-SUFFIX,secure.store.apple.com
-
-# Apple System Services
-DOMAIN-SUFFIX,appattest.com
-DOMAIN-SUFFIX,applemdm.com
-DOMAIN-SUFFIX,apps.apple.com
-
-# Apple Content Delivery
-DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,aaplimg.com
-DOMAIN-SUFFIX,appleonline.com
-
-# Apple GeoIP Fallback
-GEOIP,APPLE
