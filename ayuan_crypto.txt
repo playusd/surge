@@ -1,159 +1,179 @@
-# 内容：币圈规则集 - Crypto
-# 分类：交易所、钱包、资讯、DeFi、交易工具
-# 数量：约60条
+########################################
+# Crypto｜币圈规则集
+# 分类：交易所 / 钱包 / 资讯 / DeFi / 工具
+# 默认策略：CRYPTO
+########################################
 
-# ===== 主流交易所 =====
-# 币安
-DOMAIN,binance.com
-DOMAIN,binance.us
-DOMAIN,binancezh.com
-DOMAIN-SUFFIX,binance.cc
-DOMAIN-SUFFIX,bnbstatic.com
-DOMAIN-SUFFIX,bnbchain.org
+
+########## 主流交易所 ##########
+
+# Binance
+DOMAIN,binance.com,CRYPTO
+DOMAIN,binance.us,CRYPTO
+DOMAIN,binancezh.com,CRYPTO
+DOMAIN-SUFFIX,binance.cc,CRYPTO
+DOMAIN-SUFFIX,bnbstatic.com,CRYPTO
+DOMAIN-SUFFIX,bnbchain.org,CRYPTO
 
 # Coinbase
-DOMAIN,coinbase.com
-DOMAIN-SUFFIX,coinbasecdn.com
-DOMAIN-SUFFIX,coinbasecloud.net
+DOMAIN,coinbase.com,CRYPTO
+DOMAIN-SUFFIX,coinbasecdn.com,CRYPTO
+DOMAIN-SUFFIX,coinbasecloud.net,CRYPTO
 
-# OKX
-DOMAIN,okx.com
-DOMAIN,okex.com
-DOMAIN-SUFFIX,okexcdn.com
-DOMAIN-SUFFIX,oklink.com
+# OKX / OKEx
+DOMAIN,okx.com,CRYPTO
+DOMAIN,okex.com,CRYPTO
+DOMAIN-SUFFIX,okexcdn.com,CRYPTO
+DOMAIN-SUFFIX,oklink.com,CRYPTO
 
 # Kraken
-DOMAIN,kraken.com
-DOMAIN-SUFFIX,krakenflex.com
+DOMAIN,kraken.com,CRYPTO
+DOMAIN-SUFFIX,krakenflex.com,CRYPTO
 
-# 火币/HTX
-DOMAIN,htx.com
-DOMAIN,huobi.com
-DOMAIN-SUFFIX,hbg.com
+# HTX / Huobi
+DOMAIN,htx.com,CRYPTO
+DOMAIN,huobi.com,CRYPTO
+DOMAIN-SUFFIX,hbg.com,CRYPTO
 
 # Bybit
-DOMAIN,bybit.com
-DOMAIN-SUFFIX,bybitimg.com
+DOMAIN,bybit.com,CRYPTO
+DOMAIN-SUFFIX,bybitimg.com,CRYPTO
 
 # KuCoin
-DOMAIN,kucoin.com
-DOMAIN-SUFFIX,kucoin.cc
+DOMAIN,kucoin.com,CRYPTO
+DOMAIN-SUFFIX,kucoin.cc,CRYPTO
 
 # Gate.io
-DOMAIN,gate.io
-DOMAIN-SUFFIX,gate-api.com
+DOMAIN,gate.io,CRYPTO
+DOMAIN-SUFFIX,gate-api.com,CRYPTO
 
 # Bitget
-DOMAIN,bitget.com
-DOMAIN-SUFFIX,bitgetapi.com
+DOMAIN,bitget.com,CRYPTO
+DOMAIN-SUFFIX,bitgetapi.com,CRYPTO
 
-# ===== DEX与聚合器 =====
-# Jupiter (JUP) - Solana DEX聚合器
-DOMAIN,jup.ag
-DOMAIN,jupiter.fi
-DOMAIN-SUFFIX,jup.io
-DOMAIN-SUFFIX,jupiterapi.com
-DOMAIN-SUFFIX,jupitestatic.com
+
+########## DEX / 聚合器 ##########
+
+# Jupiter (Solana)
+DOMAIN,jup.ag,CRYPTO
+DOMAIN,jupiter.fi,CRYPTO
+DOMAIN-SUFFIX,jup.io,CRYPTO
+DOMAIN-SUFFIX,jupiterapi.com,CRYPTO
+DOMAIN-SUFFIX,jupitestatic.com,CRYPTO
 
 # Uniswap
-DOMAIN,uniswap.org
-DOMAIN-SUFFIX,uniswap-api.com
-DOMAIN-SUFFIX,uniswapfoundation.org
+DOMAIN,uniswap.org,CRYPTO
+DOMAIN-SUFFIX,uniswap-api.com,CRYPTO
+DOMAIN-SUFFIX,uniswapfoundation.org,CRYPTO
 
-# 其他DEX
-DOMAIN-SUFFIX,aave.com
-DOMAIN-SUFFIX,compound.finance
-DOMAIN-SUFFIX,curve.fi
-DOMAIN-SUFFIX,1inch.io
-DOMAIN-SUFFIX,dydx.exchange
+# 其他 DEX
+DOMAIN-SUFFIX,aave.com,CRYPTO
+DOMAIN-SUFFIX,compound.finance,CRYPTO
+DOMAIN-SUFFIX,curve.fi,CRYPTO
+DOMAIN-SUFFIX,1inch.io,CRYPTO
+DOMAIN-SUFFIX,dydx.exchange,CRYPTO
 
-# ===== 行情与交易工具 =====
+
+########## 行情 / 数据 / 资讯 ##########
+
 # DexScreener
-DOMAIN,dexscreener.com
-DOMAIN-SUFFIX,dexscreener-api.com
-DOMAIN-SUFFIX,dexscreener.io
-DOMAIN-SUFFIX,dexscreener.com
+DOMAIN,dexscreener.com,CRYPTO
+DOMAIN-SUFFIX,dexscreener-api.com,CRYPTO
+DOMAIN-SUFFIX,dexscreener.io,CRYPTO
 
-# GMGN (加密数据分析平台)
-DOMAIN,gmgn.ai
-DOMAIN-SUFFIX,gmgn.app
-DOMAIN-SUFFIX,gmgn.dev
-DOMAIN-SUFFIX,gmgn.cc
+# GMGN
+DOMAIN,gmgn.ai,CRYPTO
+DOMAIN-SUFFIX,gmgn.app,CRYPTO
+DOMAIN-SUFFIX,gmgn.dev,CRYPTO
+DOMAIN-SUFFIX,gmgn.cc,CRYPTO
 
-# 其他行情数据
-DOMAIN,coingecko.com
-DOMAIN,coinmarketcap.com
-DOMAIN-SUFFIX,cmc.io
-DOMAIN-SUFFIX,coindesk.com
-DOMAIN-SUFFIX,cointelegraph.com
-DOMAIN-SUFFIX,theblock.co
-DOMAIN-SUFFIX,decrypt.co
+# 行情 / 新闻
+DOMAIN,coingecko.com,CRYPTO
+DOMAIN,coinmarketcap.com,CRYPTO
+DOMAIN-SUFFIX,cmc.io,CRYPTO
+DOMAIN-SUFFIX,coindesk.com,CRYPTO
+DOMAIN-SUFFIX,cointelegraph.com,CRYPTO
+DOMAIN-SUFFIX,theblock.co,CRYPTO
+DOMAIN-SUFFIX,decrypt.co,CRYPTO
 
-# ===== 钱包服务 =====
-DOMAIN,metamask.io
-DOMAIN-SUFFIX,metamask-api.com
-DOMAIN-SUFFIX,trustwallet.com
-DOMAIN-SUFFIX,tokenpocket.pro
-DOMAIN-SUFFIX,imtoken.com
-DOMAIN-SUFFIX,safepal.io
 
-# ===== NFT市场 =====
-DOMAIN,opensea.io
-DOMAIN-SUFFIX,opensea-api.com
-DOMAIN-SUFFIX,blur.io
-DOMAIN-SUFFIX,looksrare.org
-DOMAIN-SUFFIX,rarible.com
+########## 钱包服务 ##########
 
-# ===== 链上数据浏览器 =====
-DOMAIN,etherscan.io
-DOMAIN-SUFFIX,etherscan-api.com
-DOMAIN-SUFFIX,bscscan.com
-DOMAIN-SUFFIX,polygonscan.com
-DOMAIN-SUFFIX,arbiscan.io
-DOMAIN-SUFFIX,solscan.io
-DOMAIN-SUFFIX,snowtrace.io
+DOMAIN,metamask.io,CRYPTO
+DOMAIN-SUFFIX,metamask-api.com,CRYPTO
+DOMAIN-SUFFIX,trustwallet.com,CRYPTO
+DOMAIN-SUFFIX,tokenpocket.pro,CRYPTO
+DOMAIN-SUFFIX,imtoken.com,CRYPTO
+DOMAIN-SUFFIX,safepal.io,CRYPTO
 
-# ===== 国内交易所（直连）=====
-# 注意：以下为国内合规交易所，建议直连
+
+########## NFT 市场 ##########
+
+DOMAIN,opensea.io,CRYPTO
+DOMAIN-SUFFIX,opensea-api.com,CRYPTO
+DOMAIN-SUFFIX,blur.io,CRYPTO
+DOMAIN-SUFFIX,looksrare.org,CRYPTO
+DOMAIN-SUFFIX,rarible.com,CRYPTO
+
+
+########## 链上浏览器 ##########
+
+DOMAIN,etherscan.io,CRYPTO
+DOMAIN-SUFFIX,etherscan-api.com,CRYPTO
+DOMAIN-SUFFIX,bscscan.com,CRYPTO
+DOMAIN-SUFFIX,polygonscan.com,CRYPTO
+DOMAIN-SUFFIX,arbiscan.io,CRYPTO
+DOMAIN-SUFFIX,solscan.io,CRYPTO
+DOMAIN-SUFFIX,snowtrace.io,CRYPTO
+
+
+########## 国内合规交易所（强制直连） ##########
+
 DOMAIN-SUFFIX,okx.cn,DIRECT
 DOMAIN-SUFFIX,huobi.pro,DIRECT
 DOMAIN-SUFFIX,zb.com,DIRECT
 DOMAIN-SUFFIX,biyong.com,DIRECT
 
-# ===== 移动端APP专用域名 =====
-# 币安APP相关
-DOMAIN,binance.sg
-DOMAIN,binance.net
-DOMAIN-SUFFIX,binance-cdn.com
-DOMAIN-SUFFIX,bnc-api.com
+
+########## 移动端 APP / 实时数据 ##########
+
+# Binance APP
+DOMAIN,binance.sg,CRYPTO
+DOMAIN,binance.net,CRYPTO
+DOMAIN-SUFFIX,binance-cdn.com,CRYPTO
+DOMAIN-SUFFIX,bnc-api.com,CRYPTO
 
 # Coinbase APP
-DOMAIN,coinbase-coinbase.com
-DOMAIN-SUFFIX,coinbase-assets.com
+DOMAIN,coinbase-coinbase.com,CRYPTO
+DOMAIN-SUFFIX,coinbase-assets.com,CRYPTO
 
 # DexScreener APP
-DOMAIN-SUFFIX,dexscreener.app
-DOMAIN-SUFFIX,dexscreener.mobile
+DOMAIN-SUFFIX,dexscreener.app,CRYPTO
+DOMAIN-SUFFIX,dexscreener.mobile,CRYPTO
 
-# ===== 交易所WebSocket（实时数据）=====
-DOMAIN-SUFFIX,stream.binance.com
-DOMAIN-SUFFIX,stream.binance.cloud
-DOMAIN-SUFFIX,ws-api.coinbase.com
-DOMAIN-SUFFIX,ws.okex.com
 
-# DexScreener实时数据
-DOMAIN-SUFFIX,ws.dexscreener.com
-DOMAIN-SUFFIX,socket.dexscreener.com
+########## WebSocket / 实时行情 ##########
 
-# ===== API和CDN服务 =====
-DOMAIN-SUFFIX,binance-ops.com
-DOMAIN-SUFFIX,binance.me
-DOMAIN-SUFFIX,binance.info
-DOMAIN-SUFFIX,bpay.me
-DOMAIN-SUFFIX,okex.me
-DOMAIN-SUFFIX,okex.info
+DOMAIN-SUFFIX,stream.binance.com,CRYPTO
+DOMAIN-SUFFIX,stream.binance.cloud,CRYPTO
+DOMAIN-SUFFIX,ws-api.coinbase.com,CRYPTO
+DOMAIN-SUFFIX,ws.okex.com,CRYPTO
+DOMAIN-SUFFIX,ws.dexscreener.com,CRYPTO
+DOMAIN-SUFFIX,socket.dexscreener.com,CRYPTO
 
-# ===== 安全验证域名 =====
-DOMAIN-SUFFIX,recaptcha.net  # Google验证码，访问交易所常需
-DOMAIN-SUFFIX,hcaptcha.com   # 人机验证
-DOMAIN-SUFFIX,cloudflare.com # 部分服务使用Cloudflare验证
+
+########## API / CDN ##########
+
+DOMAIN-SUFFIX,binance-ops.com,CRYPTO
+DOMAIN-SUFFIX,binance.me,CRYPTO
+DOMAIN-SUFFIX,binance.info,CRYPTO
+DOMAIN-SUFFIX,bpay.me,CRYPTO
+DOMAIN-SUFFIX,okex.me,CRYPTO
+DOMAIN-SUFFIX,okex.info,CRYPTO
+
+
+########## 验证 / 风控 ##########
+
+DOMAIN-SUFFIX,recaptcha.net,CRYPTO
+DOMAIN-SUFFIX,hcaptcha.com,CRYPTO
+DOMAIN-SUFFIX,cloudflare.com,CRYPTO
