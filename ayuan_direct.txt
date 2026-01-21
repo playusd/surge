@@ -1,4 +1,3 @@
-DOMAIN-SUFFIX,push.apple.com,代理策略名
-DOMAIN-SUFFIX,icloud.com,代理策略名
-DOMAIN-SUFFIX,mzstatic.com,代理策略名
-DOMAIN-SUFFIX,apple.com,代理策略名
+# Apple Core Services
+- DOMAIN-SUFFIX,apphot.cc,ghxi
+- DOMAIN-SUFFIX,ghxi.com,ghxi
