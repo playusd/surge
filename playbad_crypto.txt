@@ -1,54 +1,179 @@
 ########################################
-# 01. iCloud / App Store£®«ø÷∆÷±¡¨£©
+# CryptoÔΩúÂ∏ÅÂúàËßÑÂàôÈõÜ
+# ÂàÜÁ±ªÔºö‰∫§ÊòìÊâÄ / Èí±ÂåÖ / ËµÑËÆØ / DeFi / Â∑•ÂÖ∑
+# ÈªòËÆ§Á≠ñÁï•ÔºöCRYPTO
 ########################################
 
-# iCloud ∫À–ƒ
-DOMAIN-SUFFIX,icloud.com,DIRECT
-DOMAIN-SUFFIX,me.com,DIRECT
 
-# App Store / »Ìº˛∏¸–¬
-DOMAIN-SUFFIX,itunes.apple.com,DIRECT
-DOMAIN-SUFFIX,apps.apple.com,DIRECT
-DOMAIN-SUFFIX,appstore.com,DIRECT
+########## ‰∏ªÊµÅ‰∫§ÊòìÊâÄ ##########
 
-# Apple CDN / œ¬‘ÿ∑÷∑¢
-DOMAIN-SUFFIX,apple-dns.net,DIRECT
-DOMAIN-SUFFIX,akadns.net,DIRECT
+# Binance
+DOMAIN,binance.com,CRYPTO
+DOMAIN,binance.us,CRYPTO
+DOMAIN,binancezh.com,CRYPTO
+DOMAIN-SUFFIX,binance.cc,CRYPTO
+DOMAIN-SUFFIX,bnbstatic.com,CRYPTO
+DOMAIN-SUFFIX,bnbchain.org,CRYPTO
+
+# Coinbase
+DOMAIN,coinbase.com,CRYPTO
+DOMAIN-SUFFIX,coinbasecdn.com,CRYPTO
+DOMAIN-SUFFIX,coinbasecloud.net,CRYPTO
+
+# OKX / OKEx
+DOMAIN,okx.com,CRYPTO
+DOMAIN,okex.com,CRYPTO
+DOMAIN-SUFFIX,okexcdn.com,CRYPTO
+DOMAIN-SUFFIX,oklink.com,CRYPTO
+
+# Kraken
+DOMAIN,kraken.com,CRYPTO
+DOMAIN-SUFFIX,krakenflex.com,CRYPTO
+
+# HTX / Huobi
+DOMAIN,htx.com,CRYPTO
+DOMAIN,huobi.com,CRYPTO
+DOMAIN-SUFFIX,hbg.com,CRYPTO
+
+# Bybit
+DOMAIN,bybit.com,CRYPTO
+DOMAIN-SUFFIX,bybitimg.com,CRYPTO
+
+# KuCoin
+DOMAIN,kucoin.com,CRYPTO
+DOMAIN-SUFFIX,kucoin.cc,CRYPTO
+
+# Gate.io
+DOMAIN,gate.io,CRYPTO
+DOMAIN-SUFFIX,gate-api.com,CRYPTO
+
+# Bitget
+DOMAIN,bitget.com,CRYPTO
+DOMAIN-SUFFIX,bitgetapi.com,CRYPTO
 
 
-########################################
-# 02. Apple œ˚œ¢ / Apple AI£®◊ﬂ APPLE ≤ﬂ¬‘◊È£©
-########################################
+########## DEX / ËÅöÂêàÂô® ##########
 
-# iMessage / FaceTime / Apple Push
-DOMAIN-SUFFIX,push.apple.com,APPLE
-DOMAIN-SUFFIX,ess.apple.com,APPLE
+# Jupiter (Solana)
+DOMAIN,jup.ag,CRYPTO
+DOMAIN,jupiter.fi,CRYPTO
+DOMAIN-SUFFIX,jup.io,CRYPTO
+DOMAIN-SUFFIX,jupiterapi.com,CRYPTO
+DOMAIN-SUFFIX,jupitestatic.com,CRYPTO
 
-# Siri / Apple Intelligence / AI
-DOMAIN-SUFFIX,siri.apple.com,APPLE
-DOMAIN-SUFFIX,guzzoni.apple.com,APPLE
+# Uniswap
+DOMAIN,uniswap.org,CRYPTO
+DOMAIN-SUFFIX,uniswap-api.com,CRYPTO
+DOMAIN-SUFFIX,uniswapfoundation.org,CRYPTO
 
-
-########################################
-# 03. ∆‰”‡ Apple ”Ú√˚£®ƒ¨»œ◊ﬂ APPLE£©
-########################################
-
-DOMAIN-SUFFIX,apple.com,APPLE
-
-
-########################################
-# 04. ∞¢‘™»’≥£Õ¯’æ£®÷±¡¨£©
-########################################
-
-# ∞¢‘™»’≥£Õ¯’æ÷±¡¨
-DOMAIN-SUFFIX,apphot.cc,DIRECT
-DOMAIN-SUFFIX,ghxi.com,DIRECT
-DOMAIN-SUFFIX,zd423.com,DIRECT
+# ÂÖ∂‰ªñ DEX
+DOMAIN-SUFFIX,aave.com,CRYPTO
+DOMAIN-SUFFIX,compound.finance,CRYPTO
+DOMAIN-SUFFIX,curve.fi,CRYPTO
+DOMAIN-SUFFIX,1inch.io,CRYPTO
+DOMAIN-SUFFIX,dydx.exchange,CRYPTO
 
 
-########################################
-# 05. ∞¢‘™◊‘”–∑˛ŒÒ£®÷±¡¨£©
-########################################
+########## Ë°åÊÉÖ / Êï∞ÊçÆ / ËµÑËÆØ ##########
 
-# ÷˜”Úº∞À˘”–◊”∑˛ŒÒ
-DOMAIN-SUFFIX,ayuan.cc,DIRECT
+# DexScreener
+DOMAIN,dexscreener.com,CRYPTO
+DOMAIN-SUFFIX,dexscreener-api.com,CRYPTO
+DOMAIN-SUFFIX,dexscreener.io,CRYPTO
+
+# GMGN
+DOMAIN,gmgn.ai,CRYPTO
+DOMAIN-SUFFIX,gmgn.app,CRYPTO
+DOMAIN-SUFFIX,gmgn.dev,CRYPTO
+DOMAIN-SUFFIX,gmgn.cc,CRYPTO
+
+# Ë°åÊÉÖ / Êñ∞Èóª
+DOMAIN,coingecko.com,CRYPTO
+DOMAIN,coinmarketcap.com,CRYPTO
+DOMAIN-SUFFIX,cmc.io,CRYPTO
+DOMAIN-SUFFIX,coindesk.com,CRYPTO
+DOMAIN-SUFFIX,cointelegraph.com,CRYPTO
+DOMAIN-SUFFIX,theblock.co,CRYPTO
+DOMAIN-SUFFIX,decrypt.co,CRYPTO
+
+
+########## Èí±ÂåÖÊúçÂä° ##########
+
+DOMAIN,metamask.io,CRYPTO
+DOMAIN-SUFFIX,metamask-api.com,CRYPTO
+DOMAIN-SUFFIX,trustwallet.com,CRYPTO
+DOMAIN-SUFFIX,tokenpocket.pro,CRYPTO
+DOMAIN-SUFFIX,imtoken.com,CRYPTO
+DOMAIN-SUFFIX,safepal.io,CRYPTO
+
+
+########## NFT Â∏ÇÂú∫ ##########
+
+DOMAIN,opensea.io,CRYPTO
+DOMAIN-SUFFIX,opensea-api.com,CRYPTO
+DOMAIN-SUFFIX,blur.io,CRYPTO
+DOMAIN-SUFFIX,looksrare.org,CRYPTO
+DOMAIN-SUFFIX,rarible.com,CRYPTO
+
+
+########## Èìæ‰∏äÊµèËßàÂô® ##########
+
+DOMAIN,etherscan.io,CRYPTO
+DOMAIN-SUFFIX,etherscan-api.com,CRYPTO
+DOMAIN-SUFFIX,bscscan.com,CRYPTO
+DOMAIN-SUFFIX,polygonscan.com,CRYPTO
+DOMAIN-SUFFIX,arbiscan.io,CRYPTO
+DOMAIN-SUFFIX,solscan.io,CRYPTO
+DOMAIN-SUFFIX,snowtrace.io,CRYPTO
+
+
+########## ÂõΩÂÜÖÂêàËßÑ‰∫§ÊòìÊâÄÔºàÂº∫Âà∂Áõ¥ËøûÔºâ ##########
+
+DOMAIN-SUFFIX,okx.cn,DIRECT
+DOMAIN-SUFFIX,huobi.pro,DIRECT
+DOMAIN-SUFFIX,zb.com,DIRECT
+DOMAIN-SUFFIX,biyong.com,DIRECT
+
+
+########## ÁßªÂä®Á´Ø APP / ÂÆûÊó∂Êï∞ÊçÆ ##########
+
+# Binance APP
+DOMAIN,binance.sg,CRYPTO
+DOMAIN,binance.net,CRYPTO
+DOMAIN-SUFFIX,binance-cdn.com,CRYPTO
+DOMAIN-SUFFIX,bnc-api.com,CRYPTO
+
+# Coinbase APP
+DOMAIN,coinbase-coinbase.com,CRYPTO
+DOMAIN-SUFFIX,coinbase-assets.com,CRYPTO
+
+# DexScreener APP
+DOMAIN-SUFFIX,dexscreener.app,CRYPTO
+DOMAIN-SUFFIX,dexscreener.mobile,CRYPTO
+
+
+########## WebSocket / ÂÆûÊó∂Ë°åÊÉÖ ##########
+
+DOMAIN-SUFFIX,stream.binance.com,CRYPTO
+DOMAIN-SUFFIX,stream.binance.cloud,CRYPTO
+DOMAIN-SUFFIX,ws-api.coinbase.com,CRYPTO
+DOMAIN-SUFFIX,ws.okex.com,CRYPTO
+DOMAIN-SUFFIX,ws.dexscreener.com,CRYPTO
+DOMAIN-SUFFIX,socket.dexscreener.com,CRYPTO
+
+
+########## API / CDN ##########
+
+DOMAIN-SUFFIX,binance-ops.com,CRYPTO
+DOMAIN-SUFFIX,binance.me,CRYPTO
+DOMAIN-SUFFIX,binance.info,CRYPTO
+DOMAIN-SUFFIX,bpay.me,CRYPTO
+DOMAIN-SUFFIX,okex.me,CRYPTO
+DOMAIN-SUFFIX,okex.info,CRYPTO
+
+
+########## È™åËØÅ / È£éÊéß ##########
+
+DOMAIN-SUFFIX,recaptcha.net,CRYPTO
+DOMAIN-SUFFIX,hcaptcha.com,CRYPTO
+DOMAIN-SUFFIX,cloudflare.com,CRYPTO
