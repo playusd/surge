@@ -12,7 +12,6 @@ DOMAIN-SUFFIX,push.apple.com
 DOMAIN-SUFFIX,apple-dns.net
 
 # Apple AI / Siri / Intelligence
-# Apple AI / Siri / Intelligence
 DOMAIN-SUFFIX,siri.apple.com
 DOMAIN-SUFFIX,guzzoni.apple.com
 DOMAIN-SUFFIX,ml.apple.com
