@@ -1,54 +1,73 @@
-########################################
-# 01. iCloud / App Store£¨Ç¿ÖÆÖ±Á¬£©
-########################################
-
-# iCloud ºËĞÄ
-DOMAIN-SUFFIX,icloud.com,DIRECT
-DOMAIN-SUFFIX,me.com,DIRECT
-
-# App Store / Èí¼ş¸üĞÂ
-DOMAIN-SUFFIX,itunes.apple.com,DIRECT
-DOMAIN-SUFFIX,apps.apple.com,DIRECT
-DOMAIN-SUFFIX,appstore.com,DIRECT
-
-# Apple CDN / ÏÂÔØ·Ö·¢
-DOMAIN-SUFFIX,apple-dns.net,DIRECT
-DOMAIN-SUFFIX,akadns.net,DIRECT
+# ==================================================
+# Surge Rule Set
+# åç§°ï¼šApp ç²¾å‡†å»å¼€å± / æ¨å¹¿å¹¿å‘Šï¼ˆåˆé›†ï¼‰
+# ç­–ç•¥ï¼šREJECTï¼ˆè§„åˆ™å†…å†™æ­»ï¼‰
+# è¯´æ˜ï¼šä¸å°ä¸»åŸŸï¼Œä¸å½±å“ App æ ¸å¿ƒåŠŸèƒ½
+# ==================================================
 
 
-########################################
-# 02. Apple ÏûÏ¢ / Apple AI£¨×ß APPLE ²ßÂÔ×é£©
-########################################
-
-# iMessage / FaceTime / Apple Push
-DOMAIN-SUFFIX,push.apple.com,APPLE
-DOMAIN-SUFFIX,ess.apple.com,APPLE
-
-# Siri / Apple Intelligence / AI
-DOMAIN-SUFFIX,siri.apple.com,APPLE
-DOMAIN-SUFFIX,guzzoni.apple.com,APPLE
+# ================= ç™¾åº¦ =================
+# ä½œç”¨ï¼šå»å¯åŠ¨å¹¿å‘Š / ä¿¡æ¯æµå¹¿å‘Š
+DOMAIN-SUFFIX,adscdn.baidu.com,REJECT
+DOMAIN-SUFFIX,drmcmm.baidu.com,REJECT
+DOMAIN-SUFFIX,afd.baidu.com,REJECT
+DOMAIN-SUFFIX,fc-feed.cdn.bcebos.com,REJECT
+DOMAIN-SUFFIX,baidustatic.com,REJECT
+DOMAIN-SUFFIX,mobads.baidu.com,REJECT
+DOMAIN-SUFFIX,union.baidu.com,REJECT
 
 
-########################################
-# 03. ÆäÓà Apple ÓòÃû£¨Ä¬ÈÏ×ß APPLE£©
-########################################
-
-DOMAIN-SUFFIX,apple.com,APPLE
-
-
-########################################
-# 04. °¢ÔªÈÕ³£ÍøÕ¾£¨Ö±Á¬£©
-########################################
-
-# °¢ÔªÈÕ³£ÍøÕ¾Ö±Á¬
-DOMAIN-SUFFIX,apphot.cc,DIRECT
-DOMAIN-SUFFIX,ghxi.com,DIRECT
-DOMAIN-SUFFIX,zd423.com,DIRECT
+# ================= å¾®åš =================
+# ä½œç”¨ï¼šå»å¼€å± / æ¨å¹¿å¾®åš / åŸ‹ç‚¹
+DOMAIN-SUFFIX,adimg.uve.weibo.com,REJECT
+DOMAIN-SUFFIX,alitui.weibo.com,REJECT
+DOMAIN-SUFFIX,sax.sina.com.cn,REJECT
+DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
+DOMAIN-SUFFIX,ads.weibo.com,REJECT
+DOMAIN-SUFFIX,log.weibo.cn,REJECT
 
 
-########################################
-# 05. °¢Ôª×ÔÓĞ·şÎñ£¨Ö±Á¬£©
-########################################
+# ================= Bilibili =================
+# ä½œç”¨ï¼šå»å¼€å±å¹¿å‘Š / æ¨èå¹¿å‘Š
+DOMAIN-SUFFIX,ad.bilibili.com,REJECT
+DOMAIN-SUFFIX,cm.bilibili.com,REJECT
+DOMAIN-SUFFIX,data.bilibili.com,REJECT
+DOMAIN-SUFFIX,app.biliapi.net,REJECT
+DOMAIN-SUFFIX,log.biligame.com,REJECT
 
-# Ö÷Óò¼°ËùÓĞ×Ó·şÎñ
-DOMAIN-SUFFIX,ayuan.cc,DIRECT
+
+# ================= çŸ¥ä¹ =================
+# ä½œç”¨ï¼šå»ä¿¡æ¯æµå¹¿å‘Š / æ¨å¹¿å¡ç‰‡
+DOMAIN-SUFFIX,ad.zhihu.com,REJECT
+DOMAIN-SUFFIX,ads.zhihu.com,REJECT
+DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com,REJECT
+DOMAIN-SUFFIX,sugar.zhihu.com,REJECT
+DOMAIN-SUFFIX,mqtt.zhihu.com,REJECT
+
+
+# ================= å°çº¢ä¹¦ =================
+# ä½œç”¨ï¼šå»å¼€å± / æ¨èå¹¿å‘Š
+DOMAIN-SUFFIX,ads-img-al.xhscdn.com,REJECT
+DOMAIN-SUFFIX,ads-img-qc.xhscdn.com,REJECT
+DOMAIN-SUFFIX,ads.xiaohongshu.com,REJECT
+DOMAIN-SUFFIX,ad.xiaohongshu.com,REJECT
+DOMAIN-SUFFIX,log.xiaohongshu.com,REJECT
+
+
+# ================= é€šç”¨å¹¿å‘Š / ç»Ÿè®¡ SDK =================
+# ä½œç”¨ï¼šå»ç¬¬ä¸‰æ–¹å¹¿å‘Š SDKï¼ˆä¸å½±å“åŠŸèƒ½ï¼‰
+DOMAIN-SUFFIX,ads.mopub.com,REJECT
+DOMAIN-SUFFIX,doubleclick.net,REJECT
+DOMAIN-SUFFIX,googlesyndication.com,REJECT
+DOMAIN-SUFFIX,googleadservices.com,REJECT
+DOMAIN-SUFFIX,adservice.google.com,REJECT
+DOMAIN-SUFFIX,adnxs.com,REJECT
+DOMAIN-SUFFIX,scorecardresearch.com,REJECT
+DOMAIN-SUFFIX,umeng.com,REJECT
+DOMAIN-SUFFIX,umengcloud.com,REJECT
+DOMAIN-SUFFIX,talkingdata.net,REJECT
+DOMAIN-SUFFIX,flurry.com,REJECT
+DOMAIN-SUFFIX,app-measurement.com,REJECT
+DOMAIN-SUFFIX,adjust.com,REJECT
+DOMAIN-SUFFIX,appsflyer.com,REJECT
+DOMAIN-SUFFIX,branch.io,REJECT
