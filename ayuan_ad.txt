@@ -1,73 +1,76 @@
 # ==================================================
-# Surge Rule Set
-# 名称：App 精准去开屏 / 推广广告（合集）
-# 策略：REJECT（规则内写死）
-# 说明：不封主域，不影响 App 核心功能
+# Surge Rule Set（Domain Only）
+# 说明：仅包含广告 / 开屏相关域名
+# 策略：由 Surge UI 中 Rule Set 所选策略统一生效
 # ==================================================
 
 
 # ================= 百度 =================
-# 作用：去启动广告 / 信息流广告
-DOMAIN-SUFFIX,adscdn.baidu.com,REJECT
-DOMAIN-SUFFIX,drmcmm.baidu.com,REJECT
-DOMAIN-SUFFIX,afd.baidu.com,REJECT
-DOMAIN-SUFFIX,fc-feed.cdn.bcebos.com,REJECT
-DOMAIN-SUFFIX,baidustatic.com,REJECT
-DOMAIN-SUFFIX,mobads.baidu.com,REJECT
-DOMAIN-SUFFIX,union.baidu.com,REJECT
+DOMAIN-SUFFIX,adscdn.baidu.com
+DOMAIN-SUFFIX,drmcmm.baidu.com
+DOMAIN-SUFFIX,afd.baidu.com
+DOMAIN-SUFFIX,fc-feed.cdn.bcebos.com
+DOMAIN-SUFFIX,baidustatic.com
+DOMAIN-SUFFIX,mobads.baidu.com
+DOMAIN-SUFFIX,union.baidu.com
 
 
 # ================= 微博 =================
-# 作用：去开屏 / 推广微博 / 埋点
-DOMAIN-SUFFIX,adimg.uve.weibo.com,REJECT
-DOMAIN-SUFFIX,alitui.weibo.com,REJECT
-DOMAIN-SUFFIX,sax.sina.com.cn,REJECT
-DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
-DOMAIN-SUFFIX,ads.weibo.com,REJECT
-DOMAIN-SUFFIX,log.weibo.cn,REJECT
+DOMAIN-SUFFIX,adimg.uve.weibo.com
+DOMAIN-SUFFIX,alitui.weibo.com
+DOMAIN-SUFFIX,sax.sina.com.cn
+DOMAIN-SUFFIX,beacon.sina.com.cn
+DOMAIN-SUFFIX,ads.weibo.com
+DOMAIN-SUFFIX,log.weibo.cn
 
 
 # ================= Bilibili =================
-# 作用：去开屏广告 / 推荐广告
-DOMAIN-SUFFIX,ad.bilibili.com,REJECT
-DOMAIN-SUFFIX,cm.bilibili.com,REJECT
-DOMAIN-SUFFIX,data.bilibili.com,REJECT
-DOMAIN-SUFFIX,app.biliapi.net,REJECT
-DOMAIN-SUFFIX,log.biligame.com,REJECT
+DOMAIN-SUFFIX,ad.bilibili.com
+DOMAIN-SUFFIX,cm.bilibili.com
+DOMAIN-SUFFIX,data.bilibili.com
+DOMAIN-SUFFIX,app.biliapi.net
+DOMAIN-SUFFIX,log.biligame.com
 
 
 # ================= 知乎 =================
-# 作用：去信息流广告 / 推广卡片
-DOMAIN-SUFFIX,ad.zhihu.com,REJECT
-DOMAIN-SUFFIX,ads.zhihu.com,REJECT
-DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com,REJECT
-DOMAIN-SUFFIX,sugar.zhihu.com,REJECT
-DOMAIN-SUFFIX,mqtt.zhihu.com,REJECT
+DOMAIN-SUFFIX,ad.zhihu.com
+DOMAIN-SUFFIX,ads.zhihu.com
+DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com
+DOMAIN-SUFFIX,sugar.zhihu.com
+DOMAIN-SUFFIX,mqtt.zhihu.com
 
 
 # ================= 小红书 =================
-# 作用：去开屏 / 推荐广告
-DOMAIN-SUFFIX,ads-img-al.xhscdn.com,REJECT
-DOMAIN-SUFFIX,ads-img-qc.xhscdn.com,REJECT
-DOMAIN-SUFFIX,ads.xiaohongshu.com,REJECT
-DOMAIN-SUFFIX,ad.xiaohongshu.com,REJECT
-DOMAIN-SUFFIX,log.xiaohongshu.com,REJECT
+DOMAIN-SUFFIX,ads-img-al.xhscdn.com
+DOMAIN-SUFFIX,ads-img-qc.xhscdn.com
+DOMAIN-SUFFIX,ads.xiaohongshu.com
+DOMAIN-SUFFIX,ad.xiaohongshu.com
+DOMAIN-SUFFIX,log.xiaohongshu.com
+
+
+# ================= QQ 音乐（开屏广告） =================
+# 仅去开屏，不影响播放 / 歌词 / 登录
+DOMAIN-SUFFIX,adsmind.gdtimg.com
+DOMAIN-SUFFIX,pgdt.gtimg.cn
+DOMAIN-SUFFIX,mi.gdt.qq.com
+DOMAIN-SUFFIX,btrace.qq.com
+DOMAIN-SUFFIX,otheve.beacon.qq.com
+DOMAIN-SUFFIX,report.qq.com
 
 
 # ================= 通用广告 / 统计 SDK =================
-# 作用：去第三方广告 SDK（不影响功能）
-DOMAIN-SUFFIX,ads.mopub.com,REJECT
-DOMAIN-SUFFIX,doubleclick.net,REJECT
-DOMAIN-SUFFIX,googlesyndication.com,REJECT
-DOMAIN-SUFFIX,googleadservices.com,REJECT
-DOMAIN-SUFFIX,adservice.google.com,REJECT
-DOMAIN-SUFFIX,adnxs.com,REJECT
-DOMAIN-SUFFIX,scorecardresearch.com,REJECT
-DOMAIN-SUFFIX,umeng.com,REJECT
-DOMAIN-SUFFIX,umengcloud.com,REJECT
-DOMAIN-SUFFIX,talkingdata.net,REJECT
-DOMAIN-SUFFIX,flurry.com,REJECT
-DOMAIN-SUFFIX,app-measurement.com,REJECT
-DOMAIN-SUFFIX,adjust.com,REJECT
-DOMAIN-SUFFIX,appsflyer.com,REJECT
-DOMAIN-SUFFIX,branch.io,REJECT
+DOMAIN-SUFFIX,ads.mopub.com
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,adservice.google.com
+DOMAIN-SUFFIX,adnxs.com
+DOMAIN-SUFFIX,scorecardresearch.com
+DOMAIN-SUFFIX,umeng.com
+DOMAIN-SUFFIX,umengcloud.com
+DOMAIN-SUFFIX,talkingdata.net
+DOMAIN-SUFFIX,flurry.com
+DOMAIN-SUFFIX,app-measurement.com
+DOMAIN-SUFFIX,adjust.com
+DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,branch.io
