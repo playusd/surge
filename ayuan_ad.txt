@@ -1,0 +1,54 @@
+########################################
+# 01. iCloud / App Store（强制直连）
+########################################
+
+# iCloud 核心
+DOMAIN-SUFFIX,icloud.com,DIRECT
+DOMAIN-SUFFIX,me.com,DIRECT
+
+# App Store / 软件更新
+DOMAIN-SUFFIX,itunes.apple.com,DIRECT
+DOMAIN-SUFFIX,apps.apple.com,DIRECT
+DOMAIN-SUFFIX,appstore.com,DIRECT
+
+# Apple CDN / 下载分发
+DOMAIN-SUFFIX,apple-dns.net,DIRECT
+DOMAIN-SUFFIX,akadns.net,DIRECT
+
+
+########################################
+# 02. Apple 消息 / Apple AI（走 APPLE 策略组）
+########################################
+
+# iMessage / FaceTime / Apple Push
+DOMAIN-SUFFIX,push.apple.com,APPLE
+DOMAIN-SUFFIX,ess.apple.com,APPLE
+
+# Siri / Apple Intelligence / AI
+DOMAIN-SUFFIX,siri.apple.com,APPLE
+DOMAIN-SUFFIX,guzzoni.apple.com,APPLE
+
+
+########################################
+# 03. 其余 Apple 域名（默认走 APPLE）
+########################################
+
+DOMAIN-SUFFIX,apple.com,APPLE
+
+
+########################################
+# 04. 阿元日常网站（直连）
+########################################
+
+# 阿元日常网站直连
+DOMAIN-SUFFIX,apphot.cc,DIRECT
+DOMAIN-SUFFIX,ghxi.com,DIRECT
+DOMAIN-SUFFIX,zd423.com,DIRECT
+
+
+########################################
+# 05. 阿元自有服务（直连）
+########################################
+
+# 主域及所有子服务
+DOMAIN-SUFFIX,ayuan.cc,DIRECT
