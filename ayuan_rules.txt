@@ -1,23 +1,23 @@
 ########################################
-# 01. iCloud / App Storeï¼ˆå¼ºåˆ¶ç›´è¿žï¼‰
+# 01. iCloud / App Store£¨Ç¿ÖÆÖ±Á¬£©
 ########################################
 
-# iCloud æ ¸å¿ƒ
+# iCloud ºËÐÄ
 DOMAIN-SUFFIX,icloud.com,DIRECT
 DOMAIN-SUFFIX,me.com,DIRECT
 
-# App Store / è½¯ä»¶æ›´æ–°
+# App Store / Èí¼þ¸üÐÂ
 DOMAIN-SUFFIX,itunes.apple.com,DIRECT
 DOMAIN-SUFFIX,apps.apple.com,DIRECT
 DOMAIN-SUFFIX,appstore.com,DIRECT
 
-# Apple CDN / ä¸‹è½½åˆ†å‘
+# Apple CDN / ÏÂÔØ·Ö·¢
 DOMAIN-SUFFIX,apple-dns.net,DIRECT
 DOMAIN-SUFFIX,akadns.net,DIRECT
 
 
 ########################################
-# 02. Apple æ¶ˆæ¯ / Apple AIï¼ˆèµ° APPLE ç­–ç•¥ç»„ï¼‰
+# 02. Apple ÏûÏ¢ / Apple AI£¨×ß APPLE ²ßÂÔ×é£©
 ########################################
 
 # iMessage / FaceTime / Apple Push
@@ -30,25 +30,25 @@ DOMAIN-SUFFIX,guzzoni.apple.com,APPLE
 
 
 ########################################
-# 03. å…¶ä½™ Apple åŸŸåï¼ˆé»˜è®¤èµ° APPLEï¼‰
+# 03. ÆäÓà Apple ÓòÃû£¨Ä¬ÈÏ×ß APPLE£©
 ########################################
 
 DOMAIN-SUFFIX,apple.com,APPLE
 
 
 ########################################
-# 04. é˜¿å…ƒæ—¥å¸¸ç½‘ç«™ï¼ˆç›´è¿žï¼‰
+# 04. °¢ÔªÈÕ³£ÍøÕ¾£¨Ö±Á¬£©
 ########################################
 
-# é˜¿å…ƒæ—¥å¸¸ç½‘ç«™ç›´è¿ž
+# °¢ÔªÈÕ³£ÍøÕ¾Ö±Á¬
 DOMAIN-SUFFIX,apphot.cc,DIRECT
 DOMAIN-SUFFIX,ghxi.com,DIRECT
 DOMAIN-SUFFIX,zd423.com,DIRECT
 
 
 ########################################
-# 05. é˜¿å…ƒè‡ªæœ‰æœåŠ¡ï¼ˆç›´è¿žï¼‰
+# 05. °¢Ôª×ÔÓÐ·þÎñ£¨Ö±Á¬£©
 ########################################
 
-# ä¸»åŸŸåŠæ‰€æœ‰å­æœåŠ¡
+# Ö÷Óò¼°ËùÓÐ×Ó·þÎñ
 DOMAIN-SUFFIX,ayuan.cc,DIRECT
