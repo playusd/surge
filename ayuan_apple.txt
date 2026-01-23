@@ -1,5 +1,5 @@
 # Apple Core Services
-DOMAIN-SUFFIX,apple.com
+# DOMAIN-SUFFIX,apple.com
 
 # iMessage / iCloud Sync (仅保留同步相关，不含icloud.com)
 DOMAIN-SUFFIX,ids.apple.com
