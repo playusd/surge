@@ -1,3 +1,4 @@
 # 阿元日常网站
 DOMAIN-SUFFIX,wogg.one
+DOMAIN-SUFFIX,wogg.net
 DOMAIN-SUFFIX,cloudflare.com
