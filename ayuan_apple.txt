@@ -6,7 +6,7 @@ DOMAIN-SUFFIX,ids.apple.com
 DOMAIN-SUFFIX,ess.apple.com
 
 # Apple Push Notification Service
-DOMAIN-SUFFIX,push.apple.com
+# DOMAIN-SUFFIX,push.apple.com
 
 # Apple CDN / DNS
 DOMAIN-SUFFIX,apple-dns.net
